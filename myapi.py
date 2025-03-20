@@ -1,3 +1,37 @@
+"""
+===============================
+    FAST API TUTORIAL
+===============================
+Script purpost: 
+    - To create a simple API using FastAPI
+    - To demonstrate the use of Path and Query Parameters
+    - To demonstrate the use of Request Body and Post Method
+    - To demonstrate the use of Put Method
+    - To demonstrate the use of Delete Method
+
+Parameters:
+    - Path Parameters
+    - Query Parameters
+    - BaseModel
+    - Optional
+
+Usage:
+    - Run the script using the command: fastapi dev myapi.py
+    - Open your browser and go to http://127.0.0.1:8000/ to view data
+    - To view the API documentation and test API with Swagger UI, go to http://127.0.0.1:8000/docs
+
+===============================
+
+
+"""
+
+
+
+
+
+
+
+
 from fastapi import FastAPI, Path
 from typing import Optional
 from pydantic import BaseModel
